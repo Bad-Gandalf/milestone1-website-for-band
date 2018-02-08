@@ -4,7 +4,6 @@
 
 body {
     background: url(/assets/images/containerfluid-background.png);
-    background-repeat: no-repeat;
     background-size: auto ;
     min-height: 360px;
     background-repeat: repeat;
@@ -17,6 +16,11 @@ body {
 
 .bg-color-three-reasons {
    background-color: #ffffff;
+}
+
+.welcome .section-column {
+    background-color: #ffffffe3;
+    border-radius: 10px;
 }
 
 .bg-color-personal-info {
@@ -40,7 +44,7 @@ body {
 
 }
 
-.ui-menu-color-resume {
+.ui-menu-color-gallery {
     background-color: #9a6ba9;
     border: 3px solid #fff;
     border-radius: 10px;
@@ -54,7 +58,7 @@ body {
 
 }
 
-.ui-menu-color-download {
+.ui-menu-color-listen {
     background-color: #ffdb00;
     border: 3px solid #fff;
     border-radius: 10px;
@@ -76,6 +80,11 @@ body {
 
 h1,h2,h3,h4 {
     margin:0;
+    font-family: "Bangers";
+}
+
+.h1 {
+    font-size: 60px;
 }
 
 .uppercase {
@@ -90,38 +99,34 @@ h1,h2,h3,h4 {
 }
 
 
+
 .inline-block {
     display: inline-block;
 }
 
-/*.section-column {
-    padding:0 30px 30px;
-    float: none;
-    display: table-cell;
-}*/
 .row-table {
     display: table;
 }
 .history-heading,
-.section-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
+.section-heading {
+    font-family: "Bangers", sans-serif;
+    font-weight: 900;
     margin-top: 25px;
     margin-bottom: 40px;
+    font-size: 45px;
+    text-align: center;
 }
 
 /*-----------------------Heading*/
 
 header {
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .heading {
     margin-left: 50px;
 }
-
-
-
 
 
 .logo {
@@ -132,10 +137,10 @@ header {
     min-height: 360px;
     border: 3px solid #fff;
     border-radius: 10px;
-    transition: all .5 ease-in-out;
-    -moz-transition: all .5 ease-in-out;
-    -webkit-transition: all .5 ease-in-out;
-    -o-transition: all .5 ease-in-out;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 
 }
 
@@ -160,6 +165,14 @@ header {
     font-size: 32px;
     margin-top: 20px;
     margin-bottom: 90px;
+    color: #333;
+}
+
+.video .title {
+    font-weight: 200;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     color: #333;
 }
 
@@ -212,49 +225,15 @@ header {
 /*-----------------------Footer -------------------*/
 
 footer {
-    /*background: url(/assets/images/containerfluid-background.png);
-    background-repeat: no-repeat;
-    background-size: auto ;
-    min-height: 360px;
-    background-repeat: repeat; */
     color: #333;
     min-height: 120px;
     margin: 0;
     font-family: "Exo", sans-serif;
 }
-footer .fa.fa-commenting-o {
-    font-size: 30px;
-    color: #333;
-    line-height: 7px;
-}
-
-footer .cv-pdf i {
-    background-color: rgba(250, 250, 250, 0.2);
-    text-align: center;
-    font-size: 40px;
-    padding-left: 5px;
-    
-}
-
-footer .cv-pdf i::before {
-    background-color: rgba(250, 250, 250, 0.2);
-    font-size: 40px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
-    
-}
-
-.general-sub.hvr-sweep-to-bottom {
-    background-color: rgba(250, 250, 250, 0.2);
-    font-size: 40px;
-}
 
 .social-links {
     padding-bottom: 15px;
     position: relative;
-    
 }
 
 
@@ -277,7 +256,7 @@ footer .cv-pdf i::before {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #9a6ba9;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
      -webkit-transition: all 0.35s ease-in-out;
@@ -294,7 +273,6 @@ footer .cv-pdf i::before {
 }
 
 .col-sm-4 p {
-   /* background-color: #f5f5f563;*/
     font-weight: 500;
     font-size: 16px;
     color: #333;
@@ -303,8 +281,8 @@ footer .cv-pdf i::before {
 /*-----------------------Three reasons -------------------*/
 
 .three-reasons-icon {
-    font-size: 26px;
-    color: #ff7b05;
+        font-size: 55px;
+        color: #996aa9;
 }
 
 .three-reasons-heading {
@@ -317,6 +295,7 @@ footer .cv-pdf i::before {
     margin-bottom: 20px;
     display: block;
     clear: both;
+    text-align: center;
 }
 
 .personal-info-item .key,
@@ -330,9 +309,7 @@ footer .cv-pdf i::before {
 }
 
 .personal-info-item .key {
-    display: inline-block;
-    width: 30%;
-    margin-right: 21px;
+    
     padding-top: 2px;
     vertical-align: top;
 }
@@ -342,10 +319,9 @@ footer .cv-pdf i::before {
 }
 
 .personal-info-item .value {
-    display: inline-block;
     position: relative;
-    width: 60%;
 }
+
 /*-----------------------Skills -------------------*/
 
 .progress {
@@ -414,17 +390,10 @@ footer .cv-pdf i::before {
 .history-items {
     margin-bottom: 30px;
 }
-/*-----------------------Media Queries -------------------*/
-
-
-
-
-
-
+/*-----------------------Contact styling -------------------*/
 
 .contact-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
 }
@@ -461,7 +430,101 @@ button[type="submit"] {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
     color: #fafafa;
+    background-color: #9a6ba9;
 }
+}
+
+@media(max-width: 722px) {
+    video {
+        width: 320px;
+        height: 240px;
+    }
+}
+
+@media(max-width: 430px) {
+    .logo {
+        background: url(../images/band.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/*-------------------Video-----------*/
+
+.video {
+   text-align: center;
+}
+
+.video-title {
+    text-align: center;
+} 
+
+/*-------------------Gallery-----------*/
+
+.gallery {
+    margin: 20px;
+    border: 3px solid #f5f5f5;
+    border-radius: 10px;
+    float: left;
+    width: 250px;
+    position: relative;
+    background-color: #ffffff9e;
+}
+
+.band-members .gallery {
+    height: 400px;
+}
+    
+.group-pictures .gallery {
+    height: auto;
+    border: none;
+    background-color: transparent;
+}
+.group-pictures .gallery img {width: 100%;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.album-covers .gallery img {width: 100%;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.album-covers .gallery {
+    height: auto;
+    border: none;
+    background-color: transparent;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*-------------------Listen-----------*/
+.mp3 {
+    margin: 20px;
+    border: 3px solid #f5f5f5;
+    border-radius: 10px;
+    float: left;
+    width: auto;
+    Height: auto;
+    position: relative;
+    background-color: #ffffff9e;
+}
+
+/*-------------------Contact-----------*/
+.btn .btn-secondary .center-block {
+    background: #9a6ba9;
 }
