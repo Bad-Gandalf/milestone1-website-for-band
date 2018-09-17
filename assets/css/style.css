@@ -35,10 +35,7 @@ body {
      text-align: center; 
      width:auto; 
      border-radius:10px;
-    
 }
-
-
 
 .ui-menu-color-home {
     background-color: #dcd0c0;
@@ -357,6 +354,11 @@ button[type="submit"] {
 
 .standard-hr {
     border: solid 3px white; 
+    border-radius: 10px;
+}
+
+.index-hr {
+    border: solid 3px black; 
     border-radius: 10px;
 }
 .welcome-hr {
