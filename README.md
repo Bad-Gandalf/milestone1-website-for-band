@@ -14,7 +14,7 @@ To add to this I have also added social media links in the footer of all pages.
 This website is for fans of The Monkees who may possibly wish to hire them for functions.
 
 ### Home
-Quick, punchy introduction to  the Monkees if the user does not already 
+Quick, punchy introduction to the Monkees if the user does not already 
 know. Tips laid out for navigating the site quickly. A video of a Monkees 
 performance to engage the user as quickly as possible, to see if they like the 
 goods or are quickly reminded of their love for the Monkees.
@@ -29,17 +29,49 @@ either identify the band by its music or simply increase the nostalgia in order
 to close the deal.
 
 ### Contact
-user can send message to 
+User can send a message to site admin in order to arrange a conversation. 
+This will hopefully lead to a booking for the Monkees.
+Through the use of emailjs, the developer will be emailed when a user has 
+submitted a contact form so they can follow up on the request. 
+
 
 
 
 ### Technolgies used:
-Bootstrap Grid
-Nav bar - hover - transitions
-@media queries to change functionality to mobile (header picture navbar buttons)
-insert forms (contact)
-insert video
-insert mp3 (Listen)
-Insert images with description (Gallery)
-fontawesome
-transitions - hover etc
+
+- HTML, CSS, Javascript 
+- [emailjs](http://www.emailjs.com/) 
+    - This is used to create a working contact form on a static website.
+- [Bootstrap](https://getbootstrap.com/)
+    - Used for its grid system to help in design going from mobile to larger displays.
+- [fontawesome](https://fontawesome.com/)
+    - Icons needed for styling of the site. 
+- [Hover](http://ianlunn.github.io/Hover/)
+    - Added hover effects for certain buttons/icons. 
+
+
+## Testing
+
+I have followed all of the user stories in order to manually test each link and or page.
+There are not that many so this did not take long.
+I checked each link on the navigation bar was correct.
+Each link on the footer was checked on each page. 
+I checked that all photos in the gallery loaded.
+I checked all songs in the listen section played.
+I filled out the contact form and submitted it. I then received the email confirmation and checked the emailjs dashboard for further confirmation.
+I used dev tools to check that the site was scaling well from device to device. 
+I checked the site with Chrome, Safari and Firefox.
+
+
+## Deploymnet
+
+This was very simple, I merely deployed it to GitHub Pages with minimal effort. Nothing extra was added.
+
+## Credits
+
+### Content
+- Text for the site was taken from [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees)
+
+### Media
+- The photos used in this site where made available to me from Code Institute.
+
