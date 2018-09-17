@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_eozJVWPSyhbEjQCNv8lpG");
+        })();
+        </script>
     <title>Document</title>
 </head>
 <body>
@@ -46,13 +52,13 @@
         </div>
     </header>
     <section class="container">
-        <div class="row bg-color-contact" style="text-align:center; width:auto; border-radius:10px;">
+        <div class="row bg-color-contact">
             <div>
                 <h3 class="contact-heading uppercase text-center">Want to hire the monkees?</h3>
                 <h5 class="uppercase text-center">Please send us your request</h5>
             </div>
             <div class="center-form">
-                <form>
+                <form id="contactForm" onsubmit="return sendMail(this);" method="POST">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Description" required></textarea>
@@ -77,13 +83,16 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Follow us on:</h5>
                 <ul class="list-inline social-links">
-                    <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a target="_blank" href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/TheMonkees"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
         </div>
 
+<script src="assets/js/sendEmail.js"></script>
+
     </footer>
+    
 </body>
 </html>
