@@ -76,6 +76,11 @@ body {
     font-size: 35px;
 }
 
+.intro-row {
+    border: solid #dcd0c0;
+    padding-top: 20px;
+    border-radius: 10px;
+}
 /*-----------------------Special Paddings/Margins/Text*/
 
 h1,h2,h3,h4 {
@@ -477,3 +482,4 @@ button[type="submit"] {
     position: relative;
     background-color: #ffffff9e;
 }
+
