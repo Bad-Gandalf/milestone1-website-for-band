@@ -60,16 +60,12 @@ submitted a contact form so they can follow up on the request.
     - Form Validation
         - I submitted a form and each time I would omit a field to check there was an error message.
         - Dashboard on EmailJs was checked to see emails sent and my own inbox was checked for emails sent.
-    
-        
-
-I used dev tools to check that the site was scaling well from device to device. 
-I checked the site with Chrome, Safari and Firefox.
-
-I ran all my files through validators to check for errors.
-    - [W3C](https://jigsaw.w3.org/css-validator/) for CSS.
-    - [W3C](https://validator.w3.org/) for HTML.
-    - [JS Hint](http://jshint.com/) for Javascript.
+    - I used dev tools to check that the site was scaling well from device to device. 
+        - I checked the site with Chrome, Safari, Microsoft Edge and Firefox.
+    - I ran all my files through validators to check for errors.
+        - [W3C](https://jigsaw.w3.org/css-validator/) for CSS.
+        - [W3C](https://validator.w3.org/) for HTML.
+        - [JS Hint](http://jshint.com/) for Javascript.
 
 
 ## The Future
