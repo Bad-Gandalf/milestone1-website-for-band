@@ -11,6 +11,7 @@ function sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
         });
-        
+    
+    return false; //This is to block a new page from loading if incorrect. Works well for github pages.
 }
 
