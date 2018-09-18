@@ -19,7 +19,7 @@ body {
 }
 
 .welcome .section-column {
-    background-color: #ffffff00;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
@@ -270,7 +270,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #9a6ba9;
+    background: #c0b283;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
      -webkit-transition: all 0.35s ease-in-out;
@@ -282,7 +282,7 @@ footer {
     margin-top: 30px;
     margin-bottom: 10px;
     color: #333;
-    background-color: #ffffff8c;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
@@ -358,7 +358,7 @@ button[type="submit"] {
 }
 
 .standard-hr {
-    border: solid 3px white; 
+    border: solid 3px #dcd0c0; 
     border-radius: 10px;
 }
 
@@ -427,7 +427,7 @@ button[type="submit"] {
     float: left;
     width: 250px;
     position: relative;
-    background-color: #ffffff9e;
+    background-color: #ffffff;
 }
 
 .band-members .gallery {
@@ -480,6 +480,7 @@ button[type="submit"] {
     width: auto;
     Height: auto;
     position: relative;
-    background-color: #ffffff9e;
+    background-color: #ffffff;
 }
+
 

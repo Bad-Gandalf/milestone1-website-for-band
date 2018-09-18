@@ -52,18 +52,17 @@ submitted a contact form so they can follow up on the request.
 
 ## Testing
 
-I have followed all of the user stories in order to manually test each link and or page.
-There are not that many so this did not take long.
-I checked each link on the navigation bar was correct.
-Each link on the footer was checked on each page. 
-I checked that all photos in the gallery loaded.
-I checked all songs in the listen section played.
-I filled out the contact form and submitted it. I then received the email confirmation and checked the emailjs dashboard for further confirmation.
+- All of the above User Stories were used in order to manually test each link and or page.
+    - I checked each link on the navigation bar was correct.
+    - Each link on the footer was checked on each page. 
+    - Each photo was checked to see if it properly loaded. 
+    - Each song was checked in the listen section.
+    - A contact form was  I then received the email confirmation and checked the emailjs dashboard for further confirmation.
 I used dev tools to check that the site was scaling well from device to device. 
 I checked the site with Chrome, Safari and Firefox.
 
 
-## Deploymnet
+## Deployment
 
 This was very simple, I merely deployed it to GitHub Pages with minimal effort. Nothing extra was added.
 
