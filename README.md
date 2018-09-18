@@ -37,7 +37,7 @@ submitted a contact form so they can follow up on the request.
 
 
 
-### Technolgies used:
+## Technolgies used:
 
 - HTML, CSS, Javascript 
 - [emailjs](http://www.emailjs.com/) 
@@ -57,14 +57,31 @@ submitted a contact form so they can follow up on the request.
     - Each link on the footer was checked on each page. 
     - Each photo was checked to see if it properly loaded. 
     - Each song was checked in the listen section.
-    - A contact form was  I then received the email confirmation and checked the emailjs dashboard for further confirmation.
+    - Form Validation
+        - I submitted a form and each time I would omit a field to check there was an error message.
+        - Dashboard on EmailJs was checked to see emails sent and my own inbox was checked for emails sent.
+    
+        
+
 I used dev tools to check that the site was scaling well from device to device. 
 I checked the site with Chrome, Safari and Firefox.
 
+I ran all my files through validators to check for errors.
+    - [W3C](https://jigsaw.w3.org/css-validator/) for CSS.
+    - [W3C](https://validator.w3.org/) for HTML.
+    - [JS Hint](http://jshint.com/) for Javascript.
+
+
+## The Future
+I may take what I have learned from this experience and make my own site to gain work as a developer. 
+No obvious plans just yet.
 
 ## Deployment
 
-This was very simple, I merely deployed it to GitHub Pages with minimal effort. Nothing extra was added.
+An issue that I came across was in regards to the contact form. As I decided to deploy to github pages,
+which only hosts static sites I was getting a 405 error whenever I submitted the form. To correct the problem
+I only had to add an extra line of code in sendEmail.js at the very end (return false;). This blocked a new page from loading 
+and the form still works, i.e. I get a message every time someone has submitted a form correctly.
 
 ## Credits
 
