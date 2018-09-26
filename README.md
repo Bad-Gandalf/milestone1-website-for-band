@@ -72,12 +72,14 @@ submitted a contact form so they can follow up on the request.
 I may take what I have learned from this experience and make my own site to gain work as a developer. 
 No obvious plans just yet.
 
-## Deployment
+## Deployment 
 
 An issue that I came across was in regards to the contact form. As I decided to deploy to github pages,
 which only hosts static sites I was getting a 405 error whenever I submitted the form. To correct the problem
 I only had to add an extra line of code in sendEmail.js at the very end (return false;). This blocked a new page from loading 
 and the form still works, i.e. I get a message every time someone has submitted a form correctly.
+
+The website can be found [here](https://bad-gandalf.github.io/milestone1-website-for-band/)
 
 ## Credits
 
