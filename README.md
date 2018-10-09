@@ -14,8 +14,8 @@ To add to this I have also added social media links in the footer of all pages.
 This website is for fans of The Monkees who may possibly wish to hire them for functions.
 
 ### Home
-Quick, punchy introduction to the Monkees if the user does not already 
-know. Tips laid out for navigating the site quickly. A video of a Monkees 
+Quick, punchy introduction to The Monkees if the user does not already 
+know them. Tips laid out for navigating the site quickly. A video of a Monkees 
 performance to engage the user as quickly as possible, to see if they like the 
 goods or are quickly reminded of their love for the Monkees.
 
@@ -35,11 +35,14 @@ Through the use of emailjs, the developer will be emailed when a user has
 submitted a contact form so they can follow up on the request. 
 
 
-
-
 ## Technolgies used:
 
-- HTML, CSS, Javascript 
+- HTML
+    - a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.
+- CSS
+    - Cascading style sheets to style the content and layout of the site.
+- Javascript
+    - I used this in order to send emails to emailjs without the need for backend programming. 
 - [emailjs](http://www.emailjs.com/) 
     - This is used to create a working contact form on a static website.
 - [Bootstrap](https://getbootstrap.com/)
@@ -87,5 +90,5 @@ The website can be found [here](https://bad-gandalf.github.io/milestone1-website
 - Text for the site was taken from [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees)
 
 ### Media
-- The photos used in this site where made available to me from Code Institute.
+- The photos used in this site where made available to me by Code Institute.
 
